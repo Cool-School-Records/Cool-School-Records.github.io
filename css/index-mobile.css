@@ -11,3 +11,10 @@ img {
     margin-right: auto;
     width: 50%;
   }
+
+  .centertwo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
