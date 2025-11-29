@@ -6,6 +6,7 @@ img {
   body {
     background-color: black;
     color: white;
+<<<<<<< Updated upstream
   }
 
   div {
@@ -35,6 +36,9 @@ img {
     background-color: white;
     text-decoration: none;
 
+=======
+    font-family: 'Times New Roman', Times, serif;
+>>>>>>> Stashed changes
   }
 
   .center {
@@ -42,6 +46,8 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    pointer-events: none;
+
   }
 
   .centertwo {
@@ -49,10 +55,33 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+<<<<<<< Updated upstream
   }
 
   .topbox-front {
     background-color: skyblue;
     height: 400px;
     width: 100%;
+=======
+    pointer-events: none;
+
+
+  }
+  
+  .image {
+    z-index: 3;
+  }
+
+  .link {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    z-index: -1;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+
+>>>>>>> Stashed changes
   }
